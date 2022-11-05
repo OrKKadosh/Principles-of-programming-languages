@@ -16,43 +16,43 @@ The course uses the Scheme language (Racket) and TypeScript for teaching the gen
 
 #Topics
 
-1.	Applied Functional Programming
-  a.	Benefits of Functional programming (FP): safety, concurrency, asynchronous code
-  b.	Characteristics of FP: pure functions, immutability, higher-order functions, composition
-  c.	FP in JavaScript: function, map, filter, chain, flatmap, reduce, zip.
-  d.	Types in TypeScript: incremental typing, basic types, interfaces, contracts
-  e.	Hierarchical data types: Arrays, objects, JSON
-  f.	Higher-order procedures
-  g.	Polymorphic procedures: Generic types
+1.	Applied Functional Programming:
+a.	Benefits of Functional programming (FP): safety, concurrency, asynchronous code
+b.	Characteristics of FP: pure functions, immutability, higher-order functions, composition
+c.	FP in JavaScript: function, map, filter, chain, flatmap, reduce, zip.
+d.	Types in TypeScript: incremental typing, basic types, interfaces, contracts
+e.	Hierarchical data types: Arrays, objects, JSON
+f.	Higher-order procedures
+g.	Polymorphic procedures: Generic types
 2.	Syntax, Semantics, Types
-  a.	Concrete and abstract syntax: comparing JavaScript and Scheme
-  b.	Operational semantics: the substitution model
-  c.	Types: basic types, composite types, type constructors, algebraic data types
-  d.	Higher-Order Functions
-    |.	Functions and the processes they generate
-    ||.	Anonymous functions, closures, lexical scope
-    ||V.	Partial evaluation, currying and function composition
-    |V.	Primitive and user-defined procedures, derived expressions, special operators
+a.	Concrete and abstract syntax: comparing JavaScript and Scheme
+b.	Operational semantics: the substitution model
+c.	Types: basic types, composite types, type constructors, algebraic data types
+d.	Higher-Order Functions
+|.	Functions and the processes they generate
+||.	Anonymous functions, closures, lexical scope
+||V.	Partial evaluation, currying and function composition
+|V.	Primitive and user-defined procedures, derived expressions, special operators
 3.	Abstraction on Data and on Control
-  a.	Data abstraction: Abstract Data Types (ADTs), Interfaces, Immutable data structures
-  b.	ADTs and Algebraic Data Types to model abstract syntax
-  c.	From iterators to streams to observables - push and pull data flow
-  d.	Control abstraction: Promises and asynchronous programming - reactive programming model
-  e.	Coroutines: generators, yield, async and await in JavaScript
-  f.	Continuation passing style programming in Scheme
-  g.	Tail Recursion Optimization, stack execution model
+a.	Data abstraction: Abstract Data Types (ADTs), Interfaces, Immutable data structures
+b.	ADTs and Algebraic Data Types to model abstract syntax
+c.	From iterators to streams to observables - push and pull data flow
+d.	Control abstraction: Promises and asynchronous programming - reactive programming model
+e.	Coroutines: generators, yield, async and await in JavaScript
+f.	Continuation passing style programming in Scheme
+g.	Tail Recursion Optimization, stack execution model
 4.	Evaluators for Functional Programming
-  a.	Abstract syntax parser
-  b.	An evaluator for the substitution model
-  c.	The environment model evaluation algorithm
-  d.	Evaluator for the environment-based operational semantics
+a.	Abstract syntax parser
+b.	An evaluator for the substitution model
+c.	The environment model evaluation algorithm
+d.	Evaluator for the environment-based operational semantics
 5.	Type Correctness
-  a.	Type checking and inference
-  b.	An algorithm for type inference
-  c.	Implementing a program transformer: Scheme to Typed Scheme.
+a.	Type checking and inference
+b.	An algorithm for type inference
+c.	Implementing a program transformer: Scheme to Typed Scheme.
 6.	Logic Programming
-  a.	Relational logic programming
-  b.	Logic programming
-  c.	Meta-tools: Backtracking optimization (cuts); Unify;
-  d.	An evaluator for Prolog
+a.	Relational logic programming
+b.	Logic programming
+c.	Meta-tools: Backtracking optimization (cuts); Unify;
+d.	An evaluator for Prolog
 7.	Conclusion: Techniques, Principles and Languages Comparison
